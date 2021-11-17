@@ -128,7 +128,7 @@ class Helper(Contract):
         self._contract = self._get_contract(web3, self.abi, address)
 
     def shouldExec(self, _direct: Address) -> bool:
-        return self._contract.functions.shouldExec(_direct.address, 50000000000000000000000000).call()
+        return self._contract.functions.shouldExec(_direct.address, 5000000000000000000000000).call()
 
     def __repr__(self):
         return f"Helper('{self.address}')"
