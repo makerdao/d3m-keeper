@@ -1,4 +1,5 @@
 # d3m-keeper
+![Build Status](https://github.com/makerdao/d3m-keeper/actions/workflows/.github/workflows/aws-prod.yaml/badge.svg?branch=main)
 
 This repository contains a Keeper to periodically call exec on d3m contract
 
